@@ -11,7 +11,7 @@
 
 ## 2. The Dataset Strategy
 ### Dataset A: The Training Ground (Clean)
-* **Source:** Dungeon Crawl 32x32 Tiles.
+* **Source:** (Dungeon Crawl 32x32 Tiles.)[https://opengameart.org/content/dungeon-crawl-32x32-tiles]
 * **Status:** Organized.
 * **Usage:** You will download this yourself. Use it to train your model on the "Ground Truth" of what a "Sword" looks like vs. a "Wall."
 
@@ -59,7 +59,8 @@
 * **Task:** Retrain the model on the combined (A + newly sorted B) data.
 * **Report:** Generate a visual plot (Loss Curve or Accuracy Matrix) answering: *"Did adding the sorted Chaos data improve the model's confidence?"*
 
-## 4. Deliverables| File | Description |
+## 4. Deliverables
+| File | Description |
 | --- | --- |
 | **`train.py`** | Trains the Keras model on the known labeled data (Dataset A). |
 | **`archivist.py`** | The main engine. Scans a target folder, queries Vector DB, and moves files to sorted subfolders. |
