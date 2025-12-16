@@ -9,7 +9,8 @@
 * **The Goal:** Build an AI-powered **Auto-Archivist**. It must analyze the visual content of each file and automatically sort them back into clean, labeled folders (`/weapons`, `/environment`, `/enemies`).
 * **The Catch:** You will start with a small "Labeled Set" (Dataset A) to teach the AI, and then you must run it against the "Chaos Set" (Dataset B) provided by your Lead Engineer (Instructor) to restore order.
 
-## 2. The Dataset Strategy###Dataset A: The Training Ground (Clean)
+## 2. The Dataset Strategy
+### Dataset A: The Training Ground (Clean)
 * **Source:** Dungeon Crawl 32x32 Tiles.
 * **Status:** Organized.
 * **Usage:** You will download this yourself. Use it to train your model on the "Ground Truth" of what a "Sword" looks like vs. a "Wall."
