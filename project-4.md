@@ -12,7 +12,7 @@
 ## 2. The Dataset Strategy
 ### Dataset A: The Training Ground (Clean)
 * **Source:** (Dungeon Crawl 32x32 Tiles.)[https://opengameart.org/content/dungeon-crawl-32x32-tiles]
-* **Status:** Organized.
+* **Status:** Organized in Dungeon Crawl Stone Soup Full.zip -- 5.7 Mb 
 * **Usage:** You will download this yourself. Use it to train your model on the "Ground Truth" of what a "Sword" looks like vs. a "Wall."
 
 ### Dataset B: The "Data Swamp" (Chaos)* **Source:** Provided by Instructor.
@@ -23,7 +23,7 @@
 ### Dataset C: The "Final Boss" (Hidden)
 * **Source:** Held by Instructor.
 * **Status:** Unknown.
-* **Usage:** During your final demo, the Instructor will give you a small folder of random icons you have never seen. Your tool must sort them correctly live.
+* **Usage:** During your final demo (delivered to you on 1/2), the Instructor will give you a small folder of random icons you have never seen. Your tool must sort them correctly live.
 
 ## 3. Technical Architecture
 
