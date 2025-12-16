@@ -75,6 +75,11 @@
 * **Functionality:** The `archivist.py` script successfully moves at least **80%** of the Chaos Dataset into the correct folders (Weapon to Weapon, Wall to Wall).
 * **Research:** The `analysis.md` clearly explains how the Vector DB was used to classify the unlabeled images (e.g., *"We used Cosine Similarity with a threshold of 0.2"*).
 
+### **GitHub Workflow**
+* **Branching Strategies**: must implement some bratching strategies with frequent pushes, commits and merges to main. Implement branch protections on main...
+* **Daily Commit**: Working Days will be Checked for commits please have at least several lines of code worked on. I don't care the frequency or size of commits.
+* **Scheduled Code Review**: One of the PRs must be code reviewed with your PM (Trainer) where you will be asked about the choices you've made and what you're code is handling.
+
 ### **Capstone Project Presentation (10 Minutes)*** **Problem & Solution (1 min):** Briefly define the user problem and the project's goal.
 * **Architecture (2 mins):** High-level overview of the tech stack and data flow.
 * **Live Demo (5 mins):** Execute the code live to demonstrate a successful workflow (have a backup recording ready).
